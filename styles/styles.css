@@ -14,7 +14,9 @@ h1 {
 }
 
 main {
-    max-width: auto;
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 main img {
@@ -31,7 +33,7 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: 0 auto;
     border: 2px dashed gray;
     padding: 1rem;
     background-color: rgb(0 0 139/10%);
