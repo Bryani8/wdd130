@@ -1,6 +1,5 @@
 :root {
-    --primary-color: #0B2545;
-    --secondary-color: #2b7a8e;
+    --primary-color: #2b7a8e;
     --accent-color: #f4d03f;
     --accent2-color: #fff;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -14,7 +13,6 @@
 }
 
 header {
-    /* background-color: var(--secondary-color); */
     color: var(--accent-color)
 }
 
@@ -68,7 +66,7 @@ h1 {
 }
 
 h2 {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 article {
