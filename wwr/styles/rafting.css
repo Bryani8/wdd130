@@ -13,7 +13,7 @@
 }
 
 header {
-    color: var(--accent-color);
+    color: var(--primary-color);
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -115,7 +115,7 @@ h1 {
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat(1fr, 5);
+    grid-template-columns: repeat(5, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     align-items: center;
 }
