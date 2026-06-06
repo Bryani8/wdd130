@@ -62,7 +62,8 @@ article {
     margin: 10px;
 }
 
-.hero {
+.hero,
+.web {
     position: relative;
 }
 
@@ -116,7 +117,6 @@ h1 {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     align-items: center;
 }
 
@@ -144,4 +144,100 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.contact-info h1 {
+    position: static;
+    color: var(--primary-color);
+    background-color: transparent;
+    opacity: 1;
+}
+
+.contact-info p {
+    text-align: center;
+    margin: 4px 0;
+    padding: 0;
+}
+
+form {
+    display: grid;
+    margin: auto 0;
+    padding: 1rem 2rem;
+}
+
+input,
+textarea,
+.radio-options-container {
+    padding: 0.5rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column2 {
+    grid-template-columns: 0.5fr 2fr;
+    margin: 0.5rem 0;
+}
+
+.subscription-container {
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+button {
+    padding: 1REM;
+}
+
+.radio-title {
+    margin: 0;
+    padding: 0;
+}
+
+.radio-options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 8px;
+}
+
+.radio-options input[type="radio"] {
+    margin-right: 0.5rem;
+    width: auto;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    margin-right: 0.5rem;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.employees h2 {
+    background-color: var(--primary-color);
+    text-align: center;
+    grid-column: 1/6;
+}
+
+.employees figure {
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.employees img {
+    width: 100%;
+    height: auto;
 }
